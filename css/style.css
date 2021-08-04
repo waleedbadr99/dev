@@ -516,9 +516,108 @@ background-color: rgb(9 9 9 / 53%);
     color: #fff;
 }
 @media (max-width:567px) {
-     .container {
-        width: 298px;
-      }
+    .container {
+        width: 405px !important;
+        margin: auto;
+    }
+    .navbar-light .navbar-toggler {
+        background-color: #ffffffe6;
+        margin-right: 36px;
+    }
+    .hadr-top .text-had {
+        text-align: center;
+}
+.section-counter .icon-num .box-num .one {
+    width: 35%;
+    margin-bottom: 27px;
+}
+.box-aboserv .about-box {
+    display: block;
+    width: 92%;
+}
+.box-aboserv .about-box .about-img {
+    width: 100%;
+}
+.box-aboserv .about-img .text-img {
+    display: block;
+    width: 100%;
+}
+.box-aboserv .about-img .text-img .text-a {
+     margin-left: 0; 
+     margin-top: 24px;
+}
+.box-aboserv .about-img .text-a .titel-p {
+    font-size: 20px;
+}
+.box-aboserv .about-img .text-a .titel-p span {
+    color: #444443;
+    font-size: 18px;
+}
+.box-aboserv .about-box .about-text {
+    width: 100%;
+    text-align: center;
+    margin-top: 40px;
+}
+.box-aboserv .about-box .about-text .line {
+    background-color: #0078ff;
+    height: 3px;
+    width: 69px;
+    margin-left: 91px;
+}
+.services p {
+    width: 94%;
+}
+.services .box-services {
+    display: block;
+}
+.services .box-services .one {
+    width: 92%;
+}
+.services .line-s {
+    margin-left: 160px;
+}
+.services .box-services .one .text-box p {
+    width: 100%;
+}
+.portfolio p {
+    width: 94%;
+}
+.portfolio .box-img .one {
+    width: 92%;
+}
+.blog p {
+    width: 92%;
+}
+.blog .box-blog {
+    display: block;
+}
+.blog .box-blog .one {
+    width: 92%;
+}
+.send-from .box-list {
+    display: block;
+}
+.send-from .box-list .from-box .from-one input {
+    width: 286px;
+}
+.send-from .box-list .from-box .from-one textarea {
+    width: 286px;
+}
+.send-from .box-list .text-box {
+    display: none;
+}
+.send-from .box-list {
+    height: 637px;
+}
+.send-from {
+    height: 96vh;
+}
+.send-from .box-list {
+    width: 93%;
+}
+.send-from .box-list .from-box #sub {
+    margin-top: 44px;
+}
 }
 @media (min-width:568px) and (max-width:767px) {
 
