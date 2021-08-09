@@ -376,9 +376,7 @@ background-color: rgb(9 9 9 / 53%);
 .send-from .box-list {
     background-color: #fff;
     padding: 30px;
-    position: absolute;
-    width: 93%;
-
+    position: relative;
 }
 .send-from .box-list .from-box .line {
     background-color: #0078ff;
@@ -486,12 +484,6 @@ background-color: rgb(9 9 9 / 53%);
     }
     .box-aboserv .about-box .about-text {
         margin-top: 25px;
-    }
-    .send-from .box-list {
-        background-color: #fff;
-        padding: 30px;
-        position: absolute;
-        width: 93%;
     }
     .text-box {
         margin-top: 30px;
