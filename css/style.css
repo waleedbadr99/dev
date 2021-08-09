@@ -1,14 +1,10 @@
-.container {
-    width: 1100px;
-    margin: auto;
-}
 .nav-t {
     background-color: rgb(9 9 9) !important;
 }
 .bg-light {
     background-color: rgb(9 9 9) !important;
 }
-.navbar-light .navbar-brand {
+.navbar-light .navbar-bransd {
     color: #fff;
     font-size: 24px;
     font-weight: 700;
@@ -28,9 +24,6 @@
 }
 .navbar-light .navbar-nav .nav-link:hover {
     border-bottom: 2px solid #fff;
-}
-.navbar-expand-lg .navbar-collapse {
-    justify-content: flex-end;
 }
 .hadr-top {
     background-image: url(../img/intro-bg.jpg);
@@ -68,20 +61,13 @@ background-color: rgb(9 9 9 / 53%);
     padding-bottom: 80px;
 }
 .box-aboserv .about-box {
-    display: flex;
     background-color: #fff;
     padding: 25px;
     border-radius: 4px;
     box-shadow: 0 1px 1px 0 rgb(0 0 0 / 6%), 0 2px 5px 0 rgb(0 0 0 / 20%);
 }
-.box-aboserv .about-box .about-img {
-    width: 48%;
-}
-.box-aboserv .about-img .text-img {
-    display: flex;
-}
 .box-aboserv .about-img .text-img .text-a {
-    margin-left: 55px;
+    
 }
 .box-aboserv .about-img .text-img .imge img {
     border-radius: 5px;
@@ -95,9 +81,6 @@ background-color: rgb(9 9 9 / 53%);
     color: #444443;
     font-size: 15px;
     font-weight: inherit;
-}
-.box-aboserv .about-box .about-text {
-    width: 48%;
 }
 .sklli .tit-p {
     margin-top: 20px;
@@ -125,6 +108,7 @@ background-color: rgb(9 9 9 / 53%);
 .services {
     padding-top: 70px;
     text-align: center;
+    background-color: #f5f5f5;
 }
 .services h2 {
     font-size: 3rem;
@@ -136,14 +120,8 @@ background-color: rgb(9 9 9 / 53%);
     margin: 0 auto;
 }
 .services .box-services {
-    display: flex;
-    flex-wrap: wrap;
-    justify-content: space-around;
+    padding-bottom: 70px;
     padding-top: 60px;
-}
-.services .box-services .one {
-    width: 31%;
-    margin-bottom: 20px;
 }
 .services .box-services .one .text-box {
     background-color: #fff;
@@ -178,7 +156,7 @@ background-color: rgb(9 9 9 / 53%);
 }
 .section-counter .img-counter {
     background-image: url(https://j.top4top.io/p_2040r9wcd1.jpg);
-    height: 80vh;
+    height: 100vh;
     background-repeat: no-repeat;
     background-attachment: fixed;
     background-size: cover;
@@ -203,13 +181,7 @@ background-color: rgb(9 9 9 / 53%);
     width: 76%;
 }
 .section-counter .icon-num .box-num {
-    display: flex;
-    flex-wrap: wrap;
-    justify-content: space-around;
     text-align: center;
-}
-.section-counter .icon-num .box-num .one {
-    width: 25%;
 }
 .section-counter .icon-num .box-num .one h5 {
     color: #fff;
@@ -233,6 +205,7 @@ background-color: rgb(9 9 9 / 53%);
     color: #fff;
     margin: auto;
 }
+
 .portfolio {
     background-color: #f5f5f5;
     padding-top: 70px;
@@ -251,12 +224,8 @@ background-color: rgb(9 9 9 / 53%);
 }
 .portfolio .box-img {
     padding-top: 50px;
-    display: flex;
-    flex-wrap: wrap;
-    justify-content: space-between;
 }
 .portfolio .box-img .one  {
-    width: 32%;
     margin-bottom: 40px;
 }
 .portfolio .box-img .one .img-one {
@@ -315,7 +284,6 @@ background-color: rgb(9 9 9 / 53%);
 .testimonials .box-w p {
     color: #fff;
 }
-
 .blog {
     background-color: #f5f5f5;
     padding-top: 70px;
@@ -334,12 +302,8 @@ background-color: rgb(9 9 9 / 53%);
 }
 .blog .box-blog {
     padding-top: 50px;
-    display: flex;
-    flex-wrap: wrap;
-    justify-content: space-around;
 }
 .blog .box-blog .one {
-    width: 31%;
     margin-bottom: 30px;
 }
 .blog .box-blog .one .img-bl img {
@@ -412,15 +376,9 @@ background-color: rgb(9 9 9 / 53%);
 .send-from .box-list {
     background-color: #fff;
     padding: 30px;
-    display: flex;
-    flex-wrap: wrap;
-    justify-content: space-between;
     position: absolute;
-    width: 90%;
-    height: 570px;
-}
-.send-from .box-list .from-box {
-    width: 47%;
+    width: 93%;
+
 }
 .send-from .box-list .from-box .line {
     background-color: #0078ff;
@@ -430,7 +388,7 @@ background-color: rgb(9 9 9 / 53%);
 }
 .send-from .box-list .from-box .from-one input {
     padding: 10px 15px;
-    width: 500px;
+    width: 100%;
     margin-bottom: 20px;
     border: 1px solid #ced4da;
     outline: 1px solid #0078ff ;
@@ -439,7 +397,7 @@ background-color: rgb(9 9 9 / 53%);
     border: 1px solid #ced4da;
     outline: 1px solid #0078ff ;
     padding: 10px 15px;
-    width: 500px;
+    width: 100%;
     height: 136px;
     margin-bottom: 20px;
 }
@@ -452,9 +410,6 @@ background-color: rgb(9 9 9 / 53%);
     border-radius: 28px;
     text-transform: uppercase;
     font-weight: 600;
-}
-.send-from .box-list .text-box {
-    width: 47%;
 }
 .send-from .box-list .text-box .line {
     background-color: #0078ff;
@@ -515,116 +470,27 @@ background-color: rgb(9 9 9 / 53%);
     text-decoration: none;
     color: #fff;
 }
-@media (max-width:567px) {
-    .container {
-        width: 405px !important;
-        margin: auto;
-    }
-    .navbar-light .navbar-toggler {
-        background-color: #ffffffe6;
-        margin-right: 36px;
+
+@media (max-width:576px) {
+    .hadr-top {
+        background-position: 56%;
     }
     .hadr-top .text-had {
-        text-align: center;
-}
-.section-counter .icon-num .box-num .one {
-    width: 35%;
-    margin-bottom: 27px;
-}
-.box-aboserv .about-box {
-    display: block;
-    width: 92%;
-}
-.box-aboserv .about-box .about-img {
-    width: 100%;
-}
-.box-aboserv .about-img .text-img {
-    display: block;
-    width: 100%;
-}
-.box-aboserv .about-img .text-img .text-a {
-     margin-left: 0; 
-     margin-top: 24px;
-}
-.box-aboserv .about-img .text-a .titel-p {
-    font-size: 20px;
-}
-.box-aboserv .about-img .text-a .titel-p span {
-    color: #444443;
-    font-size: 18px;
-}
-.box-aboserv .about-box .about-text {
-    width: 100%;
-    text-align: center;
-    margin-top: 40px;
-}
-.box-aboserv .about-box .about-text .line {
-    background-color: #0078ff;
-    height: 3px;
-    width: 69px;
-    margin-left: 91px;
-}
-.services p {
-    width: 94%;
-}
-.services .box-services {
-    display: block;
-}
-.services .box-services .one {
-    width: 92%;
-}
-.services .line-s {
-    margin-left: 160px;
-}
-.services .box-services .one .text-box p {
-    width: 100%;
-}
-.portfolio p {
-    width: 94%;
-}
-.portfolio .box-img .one {
-    width: 92%;
-}
-.blog p {
-    width: 92%;
-}
-.blog .box-blog {
-    display: block;
-}
-.blog .box-blog .one {
-    width: 92%;
-}
-.send-from .box-list {
-    display: block;
-}
-.send-from .box-list .from-box .from-one input {
-    width: 286px;
-}
-.send-from .box-list .from-box .from-one textarea {
-    width: 286px;
-}
-.send-from .box-list .text-box {
-    display: none;
-}
-.send-from .box-list {
-    height: 637px;
-}
-.send-from {
-    height: 96vh;
-}
-.send-from .box-list {
-    width: 93%;
-}
-.send-from .box-list .from-box #sub {
-    margin-top: 44px;
-}
-}
-@media (min-width:568px) and (max-width:767px) {
-
-}
-@media (min-width:768px) and (max-width:991px) {
-
-}
-@media (min-width:992px) and (max-width:1999px) {
-
+        top: 62%;
+    }
+    .box-aboserv .about-img .text-img .text-a {
+        margin-top: 24px;
+    }
+    .send-from {
+        height: 1190px;
+  
+    }
+    .send-from .box-list {
+        background-color: #fff;
+        padding: 30px;
+        position: absolute;
+        width: 93%;
+    }
+    .text-box {
+        margin-top: 30px;
 }
