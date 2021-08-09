@@ -421,6 +421,9 @@ background-color: rgb(9 9 9 / 53%);
     font-size: 1.25rem;
     font-weight: 300;
 }
+.send-from .box-list .text-box span {
+    text-decoration: none;
+}
 .send-from .box-list .text-box ul {
     list-style: none; 
     padding: 0;
