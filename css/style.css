@@ -493,4 +493,7 @@ background-color: rgb(9 9 9 / 53%);
     .send-from {
         height: 1190px;
     }
+    .send-from .box-list .text-box {
+        margin-top: 25px;
+    }
 }
